@@ -225,10 +225,10 @@ height: 100vh;
 
 .hero-text-box {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   top: 40%;
-  right: -60%;
-   transform: translate(-50%, -50%);
+   transform: translate(10%, -50%);
+   overflow-x: hidden;
 }
 
 .logo {
@@ -385,9 +385,12 @@ height: 100vh;
 
 .section-steps {
     background-image: linear-gradient(rgba(0, 0, 0, .21), rgba(0, 0, 0, 0.1)), opacity: .7, url(img/heroo.jpg);
-    
+    background-image:url('../images/bg.png');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
 background-size: cover;
-background-position: center;
+
 height: 100vh;
     background-attachment: fixed;
 
