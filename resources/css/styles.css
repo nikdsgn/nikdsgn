@@ -229,6 +229,8 @@ height: 100vh;
   top: 40%;
    transform: translate(10%, -50%);
    overflow-x: hidden;
+   top: 400px;
+    left: 900px;
 }
 
 .logo {
