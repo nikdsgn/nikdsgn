@@ -21,8 +21,13 @@
 
 /* small tablet to big tablet: from 768 to 1023 */
 @media only screen and (max-width: 1023px) {
-  body {   font-size: 18px;  }
+  body {   font-size: 16px;  }
   section { padding: 60px 0;}
+
+  .hero-text-box { 
+    width: auto;
+    top: 400px;
+    left: 100px;
 
   .long-copy {
       width: 80%;
@@ -63,7 +68,11 @@ body {
   overflow-x: hidden;
   section { padding: 30px 0; }
 .row,
-.hero-text-box { padding: 0 4%; }
+.hero-text-box { 
+  width: auto;
+  transform: translate(10%, -50%);
+  padding: 0 4%; 
+  top: 400px; }
 .col { width: 100%;
   margin: 0 0 4% 0;
 }
@@ -169,4 +178,9 @@ footer {
 @media only screen and (max-width: 480px) {
  section { padding: 25px 0; }
 .contact-form { width: 100% }
+.hero-text-box { 
+  width: auto;
+  transform: translate(10%, -50%);
+  top: 400px;
 }
+
