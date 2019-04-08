@@ -225,7 +225,7 @@ height: 100vh;
 
 .hero-text-box {
   position: absolute;
-  width: 100%;
+  width: auto;
   top: 40%;
    transform: translate(10%, -50%);
    overflow-x: hidden;

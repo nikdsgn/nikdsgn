@@ -6,7 +6,7 @@
 /* big table to 1200: from 768 to 1200 (width smaller than 1440px) */
 @media only screen and (max-width: 1200px) {
   .hero-text-box {
-    width: 100%;
+    width: auto;
     padding: 0 2%;
     transform: translate(10%, -50%) !important;
 
