@@ -5,6 +5,7 @@ html, body {
     padding: 0px;
     overflow-x: hidden; 
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 
@@ -83,6 +84,11 @@ li {
 a {
     color: #f5f5f6;
     text-decoration: none;
+}
+
+.newtest {
+    color: #ffcc33;
+    font-size: 3em;
 }
 
 
@@ -302,7 +308,10 @@ hr {
     /* align-content: center; */
 }
 
-
+.orange {
+    color: #FFCC33;
+   
+}
 
 
 .icon-big {
