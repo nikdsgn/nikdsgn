@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .zone {
     /* padding:30px 50px;
     margin:40px 60px; */
-    cursor:pointer;
+    /* cursor:pointer; */
     /* display:inline-block; */
     /* color:#FFF; */
     font-size: 2em;
@@ -407,10 +407,12 @@ align-content: flex-end;
     transition: all .2s;
     padding: 0;
 }
-.aiicon4:hover {
+.aiicon7:hover {
     transform: scale(1.2);
 
 }
+
+
 
 .aiicon3 {
     padding: 0 2em 0.5em 2em;
