@@ -4,6 +4,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    text-align: center;
 }
 
 
@@ -62,13 +63,15 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-
+   
+    margin-left: auto;
 }
 
 
 
 .push {
     margin-left: auto;
+    margin-right: auto;
 }
 
 li {
@@ -119,7 +122,7 @@ h1 {
 }
 
 h3 {
-    margin-top: -11px;  
+    /* margin-top: -11px;   */
     font-size: 1em; 
     font-family: 'Roboto', serif;
 }
@@ -220,7 +223,6 @@ h3 {
 
 .bbout {
     background-image: linear-gradient(#FFCC33, #fff);
-    padding-top: 8em;
 }
 
 .about3 {
@@ -454,4 +456,49 @@ footer {
    } */
 
 
-@media only screen and (max-width: 600px)
+@media only screen and (min-width: 300px) {
+    body {
+        font-size: 0.5em;
+    }
+    
+    .main-nav {
+        margin-left: -20px;
+    }
+
+    .bbout {
+        background-image: linear-gradient(#FFCC33, #fff);
+        margin-top: -10px;
+    }
+    
+    .skillsbox1 {
+        margin-top: 15px;
+    }
+
+    .aiicon {
+        padding: 0 .8em 0.5em .8em;
+        text-align: center;
+        opacity: .4; }
+
+    .aiicon2 {
+        padding: 0 .2em 0.5em .2em;
+        text-align: center;
+        opacity: .4; }
+
+        .aiicon3 {
+            padding: 0 .2em 0.5em .2em;
+            text-align: center;
+            opacity: .4; 
+             }
+
+            .interestsbox1 {
+                font-size: .55em;
+            }
+
+            .grid-skills {
+                height: 80vh;
+            }
+
+            .about3 {
+                padding-top: 5em;
+            }
+}
