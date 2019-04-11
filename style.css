@@ -393,6 +393,8 @@ align-content: flex-end;
     background: #CCCC66;
     margin: 0 auto;
     list-style: none;
+    text-decoration: none;
+    
     transition: all .2s;
     padding: 0;
 }
@@ -524,7 +526,8 @@ footer {
                  }
              .socialicons {
                 
-                
+                list-style: none;
+                text-decoration: none;
                 font-size: 1em;
              }
 
@@ -546,6 +549,17 @@ footer {
             } 
            
             
+}
+
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    list-style: none;
+    
 }
 
 @media only screen and (min-width: 300px) {
